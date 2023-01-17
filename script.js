@@ -13,6 +13,15 @@ function createGrid(size) {
 
     container.append(row);
   }
+
+  const squares = document.querySelectorAll(".square");
+  squares.forEach((square) =>
+    square.addEventListener("mouseover", () => changeColour(square))
+  );
+}
+
+function changeColour(square) {
+  square.style.backgroundColor = "black";
 }
 
 createGrid(16);
