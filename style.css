@@ -5,11 +5,19 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  gap: 8px;
+}
+
+.grid-size {
+  padding: 4px 8px;
+  background-color: #e0e0e0;
+  border: 1px solid #222;
 }
 
 #container {
-  width: 720px;
-  height: 720px;
+  width: 675px;
+  height: 675px;
+  border: 0.5px solid black;
   display: flex;
   flex-direction: column;
   justify-content: stretch;
@@ -22,7 +30,6 @@ body {
 
 .square {
   flex: 1;
-  border: 0.5px solid black;
   min-width: 2px;
   min-height: 2px;
 }
