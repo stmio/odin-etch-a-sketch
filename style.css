@@ -1,0 +1,28 @@
+body {
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#container {
+  width: 720px;
+  height: 720px;
+  display: flex;
+  flex-direction: column;
+  justify-content: stretch;
+}
+
+.row {
+  display: flex;
+  flex: 1;
+}
+
+.square {
+  flex: 1;
+  border: 0.5px solid black;
+  min-width: 2px;
+  min-height: 2px;
+}
