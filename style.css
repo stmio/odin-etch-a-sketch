@@ -8,10 +8,20 @@ body {
   gap: 8px;
 }
 
-.grid-size {
+#settings {
+  display: flex;
+  gap: 16px;
+}
+
+button {
   padding: 4px 8px;
-  background-color: #e0e0e0;
+  color: #e7e7e7;
+  background-color: #777;
   border: 1px solid #222;
+}
+
+.active {
+  border: 3px solid #ff712a;
 }
 
 #container {
